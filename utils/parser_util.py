@@ -207,7 +207,7 @@ def add_sampling_options(parser: ArgumentParser):
     group = parser.add_argument_group("sampling")
     group.add_argument(
         "--testdata_dir",
-        default="dataset/AMASS_20.0_fps_nh_globsmpl_corrupted_cano_test",
+        default="dataset/AMASS_20.0_fps_nh_globsmpl_corrupted_cano",
         type=str,
         help="Path to evaluation dataset.",
     )

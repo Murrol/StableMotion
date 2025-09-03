@@ -16,11 +16,13 @@ You don’t need a clean dataset to train a motion cleanup model. StableMotion l
     - [Environment Setup](#environment-setup)
     - [Dependencies](#dependencies)
   - [Quick Start](#quick-start)
+    - [0. Get BrokenAMASS](#0-get-brokenamass)
     - [1. Training](#1-training)
     - [2. Inference](#2-inference)
   - [Evaluation](#evaluation)
   - [Visualization](#visualization)
-  - [Project Structure](#project-structure)
+  - [Acknowlegements](#acknowlegements)
+  - [License](#license)
   - [Citation](#citation)
 
 ## Installation
@@ -62,6 +64,10 @@ pip install pyrender==0.1.45
 
 ## Quick Start
 
+
+### 0. Get BrokenAMASS
+TODO
+
 ### 1. Training
 Train the StableMotion model on your corrupted motion data:
 
@@ -87,7 +93,7 @@ python -m sample.fix_globsmpl \
   --model_path save/stablemotion/ema001000000.pt \
   --use_ema \
   --batch_size 32 \
-  --testdata_dir dataset/AMASS_20.0_fps_nh_globsmpl_corrupted_cano_test \
+  --testdata_dir dataset/AMASS_20.0_fps_nh_globsmpl_corrupted_cano \
   --output_dir ./output/stablemotion_vanilla
 
 # Enhanced inference with ensemble and adaptive cleanup
@@ -95,7 +101,7 @@ python -m sample.fix_globsmpl \
   --model_path save/stablemotion/ema001000000.pt \
   --use_ema \
   --batch_size 32 \
-  --testdata_dir dataset/AMASS_20.0_fps_nh_globsmpl_corrupted_cano_test \
+  --testdata_dir dataset/AMASS_20.0_fps_nh_globsmpl_corrupted_cano \
   --ensemble \
   --enable_sits \
   --classifier_scale 100 \
@@ -120,7 +126,7 @@ python -m visualize.render_scripts \
   --rendersmpl
 ```
 
-## Project Structure
+<!-- ## Project Structure
 
 ```
 StableMotion/
@@ -137,7 +143,18 @@ StableMotion/
 │   └── meta_AMASS_20.0_fps_nh_globsmpl_corrupted_cano/
 ├── save/
 └── output/
-```
+``` -->
+
+## Acknowlegements
+
+We sincerely thank the open-sourcing of these works where our code is based on: 
+
+[MDM](https://github.com/GuyTevet/motion-diffusion-model/tree/main), [stmc](https://github.com/nv-tlabs/stmc.git), [PixArt-α](https://github.com/PixArt-alpha/PixArt-alpha) and [diffusers](https://github.com/huggingface/diffusers)
+
+## License
+This code is distributed under an [MIT LICENSE](LICENSE).
+
+Note that our code depends on other libraries, including TMR, SMPL, SMPL-X, and uses datasets which each have their own respective licenses that must also be followed.
 
 ## Citation
 
