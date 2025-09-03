@@ -184,11 +184,15 @@ class MotionDataset(Dataset):
 
 
 if __name__ == "__main__":
+    from utils.fixseed import fixseed
     from torch.utils.data import DataLoader
+    from argparse import ArgumentParser
+    parser = ArgumentParser()
+    parser.add_argument("--mode", type=str)
+    args = parser.parse_args()
 
-    num_frames = 200
-    fps = 20
-    mode = "train"  # or 'test'
+    fixseed(42)
+    mode = args.mode
     ENABLE_SLIDEDET = True
 
     motion_loader = UtilAMASSMotionLoader(
