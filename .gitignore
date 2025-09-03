@@ -1,0 +1,17 @@
+__pycache__
+**.pyc
+**.bvh
+**.pth
+# **.pt
+**.mp4
+.DS_Store
+save
+body_models
+glove
+log
+.vscode
+temp
+deps
+tmr_models
+**deprecated**
+dataset
