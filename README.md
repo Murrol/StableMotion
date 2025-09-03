@@ -26,7 +26,6 @@
   - [License](#license)
   - [Citation](#citation)
 
-:hammer_and_wrench::gear::two_women_holding_hands::rocket::broom::broom::soap::mechanic::x::white_check_mark::dart::bar_chart:
 ## Installation :gear:
 
 ### Environment Setup
