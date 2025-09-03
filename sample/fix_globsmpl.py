@@ -251,25 +251,21 @@ def main():
 
     # Flags
     collect_dataset = args.collect_dataset
-    is_using_data = not any([args.motion_path, args.dataset_path])
 
     # Output path
     out_path = build_output_dir(args)
 
     # Data
     print(f"Loading dataset from {args.testdata_dir}...")
-    if is_using_data:
-        data = get_dataset_loader(
-            name="globsmpl",
-            batch_size=args.batch_size,
-            split="test_benchmark",
-            data_dir=args.testdata_dir,
-            normalizer_dir=args.normalizer_dir,
-            shuffle=False,
-        )
-        motion_normalizer = data.dataset.motion_loader.motion_normalizer
-    else:
-        raise NotImplementedError("Direct file feeds not implemented here.")
+    data = get_dataset_loader(
+        name="globsmpl",
+        batch_size=args.batch_size,
+        split="test_benchmark",
+        data_dir=args.testdata_dir,
+        normalizer_dir=args.normalizer_dir,
+        shuffle=False,
+    )
+    motion_normalizer = data.dataset.motion_loader.motion_normalizer
 
     # Model + diffusion
     print("Creating model and diffusion...")
