@@ -13,15 +13,19 @@
 ## Table of Contents
 - [ StableMotion: Training Motion Cleanup Models with Unpaired Corrupted Data ](#-stablemotion-training-motion-cleanup-models-with-unpaired-corrupted-data-)
   - [Table of Contents](#table-of-contents)
-  - [Installation](#installation)
+  - [Installation :gear:](#installation-gear)
     - [Environment Setup](#environment-setup)
     - [Dependencies](#dependencies)
+    - [SMPL Dependency](#smpl-dependency)
+    - [TMR Dependency](#tmr-dependency)
+    - [Pretrained Checkpoint: StableMotion-BrokenAMASS](#pretrained-checkpoint-stablemotion-brokenamass)
   - [Quick Start](#quick-start)
-    - [0. Get BrokenAMASS](#0-get-brokenamass)
-    - [1. Training](#1-training)
-    - [2. Inference](#2-inference)
-  - [Evaluation](#evaluation)
-  - [Visualization](#visualization)
+    - [0. Get Benchmark Dataset: BrokenAMASS](#0-get-benchmark-dataset-brokenamass)
+    - [0.5 Customized Dataset :dart:](#05-customized-dataset-dart)
+    - [1. Training :rocket:](#1-training-rocket)
+    - [2. Inference :soap:](#2-inference-soap)
+  - [Evaluation :bar\_chart:](#evaluation-bar_chart)
+  - [Visualization :two\_women\_holding\_hands:](#visualization-two_women_holding_hands)
   - [Acknowlegements](#acknowlegements)
   - [License](#license)
   - [Citation](#citation)
@@ -66,7 +70,7 @@ StableMotion/
 
 ### Pretrained Checkpoint: StableMotion-BrokenAMASS
 
-To play around, download a **StableMotion** checkpoint trained on BrokenAMASS from [OneDrive](https://1sfu-my.sharepoint.com/:u:/g/personal/yma101_sfu_ca/EXhMWi9T749No18jTtPGr-EBvz9aEGueCWvLbzueUbpLcw?e=C9ZnKj) and place it under the `./save` directory. 
+To play around, download a **StableMotion** checkpoint trained on BrokenAMASS from [OneDrive](https://1sfu-my.sharepoint.com/:u:/g/personal/yma101_sfu_ca/EXpEhFPVkUBCiHNujKcf2W4BfVrERQ3E4cHPpMMly1nQgA?e=CJzRZP) and place it under the `./save` directory. 
 
 
 ## Quick Start
