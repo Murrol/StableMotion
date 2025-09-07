@@ -6,7 +6,7 @@
 > StableMotion learns to fix corrupted motions directly from raw mocap data — no handcrafted data pairs, no synthetic artifact augmentation.
 
 
-![Teaser](assets/teaser.jpg)
+![Teaser](assets/teaser.png)
 
 <p align="center"> :x: &nbsp; Raw corrupted data &emsp;&emsp; :white_check_mark: &nbsp; Clean results!</p>
 
