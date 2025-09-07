@@ -217,8 +217,7 @@ StableMotion/
 ## Acknowlegements
 
 We sincerely thank the open-sourcing of these works where our code is based on: 
-
-[MDM](https://github.com/GuyTevet/motion-diffusion-model/tree/main), [stmc](https://github.com/nv-tlabs/stmc.git), [diffusers](https://github.com/huggingface/diffusers), [TMR](https://github.com/Mathux/TMR), [humor](https://github.com/davrempe/humor), [PixArt-α](https://github.com/PixArt-alpha/PixArt-alpha), [stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools),
+[MDM](https://github.com/GuyTevet/motion-diffusion-model/tree/main), [stmc](https://github.com/nv-tlabs/stmc.git), [diffusers](https://github.com/huggingface/diffusers), [TMR](https://github.com/Mathux/TMR), [humor](https://github.com/davrempe/humor), [PixArt-α](https://github.com/PixArt-alpha/PixArt-alpha), and [stable-audio-tools](https://github.com/Stability-AI/stable-audio-tools).
 
 ## License
 This code is distributed under an [MIT LICENSE](LICENSE).
