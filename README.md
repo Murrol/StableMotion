@@ -231,7 +231,7 @@ If you find our work helpful, please cite:
 ```bibtex
 @article{mu2025stablemotion,
   title={StableMotion: Training Motion Cleanup Models with Unpaired Corrupted Data},
-  author={Mu, Yuxuan and Ling, Hung Yu and Shi, Yi and Ojeda, Ismael Baira and Xi, Pengcheng and Shu, Chang and Zinno, Fabio and Peng, Xue Bin},
+  author={Mu, Yuxuan and Ling, Hung Yu and Shi, Yi and Baira Ojeda, Ismael and Xi, Pengcheng and Shu, Chang and Zinno, Fabio and Peng, Xue Bin},
   journal={arXiv preprint arXiv:2505.03154},
   year={2025}
 }
