@@ -2,6 +2,12 @@
 
 # <p align="center"> StableMotion: Training Motion Cleanup Models with Unpaired Corrupted Data </p>
 
+<div align="center">
+<a href='https://yxmu.foo/stablemotion-page/'><img src='https://img.shields.io/badge/Project-StableMotion-blue' alt='Project'></a>
+<a href='https://youtu.be/XftDYsxZs64'><img src='https://img.shields.io/badge/YouTube-StableMotion-red' alt='Youtube'></a>
+<a href='https://arxiv.org/abs/2505.03154'><img src='https://img.shields.io/badge/Paper-StableMotion-green' alt='Project'></a>
+</div>
+
 > :mechanic: **You don’t need a clean dataset to train a motion cleanup model.**  
 > StableMotion learns to fix corrupted motions directly from raw mocap data — no handcrafted data pairs, no synthetic artifact augmentation.
 
