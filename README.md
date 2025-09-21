@@ -72,6 +72,9 @@ StableMotion/
     └── tmr_humanml3d_guoh3dfeats
     └── tmr_kitml_guoh3dfeats
 ```
+
+To fix a path discrepancy, replace the config file `tmr_models/tmr_humanml3d_guoh3dfeats/config.json` with `misc/tmr_humanml3d_guoh3dfeats_config/config.json`.
+
 </details>
 
 ### Pretrained Checkpoint: StableMotion-BrokenAMASS
