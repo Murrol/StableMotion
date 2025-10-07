@@ -238,10 +238,11 @@ Note that our code depends on other libraries, including TMR, SMPL, SMPL-X, and 
 If you find our work helpful, please cite:
 
 ```bibtex
-@article{mu2025stablemotion,
-  title={StableMotion: Training Motion Cleanup Models with Unpaired Corrupted Data},
-  author={Mu, Yuxuan and Ling, Hung Yu and Shi, Yi and Baira Ojeda, Ismael and Xi, Pengcheng and Shu, Chang and Zinno, Fabio and Peng, Xue Bin},
-  journal={arXiv preprint arXiv:2505.03154},
-  year={2025}
+@inproceedings{
+    mu2025StableMotion,
+    author={Mu, Yuxuan and Ling, Hung Yu and Shi, Yi and Baira Ojeda, Ismael and Xi, Pengcheng and Shu, Chang and Zinno, Fabio and Peng, Xue Bin},
+    title = {StableMotion: Training Motion Cleanup Models with Unpaired Corrupted Data},
+    year = {2025},
+    booktitle = {SIGGRAPH Asia 2025 Conference Papers (SIGGRAPH Asia '25 Conference Papers)}
 }
 ```
